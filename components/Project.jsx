@@ -13,7 +13,7 @@ export default function Projects () {
 
                 {/* <!-- Client logo --> */}
                 <div className="mb-6 lg:mb-0">
-                  <Image  width="180" src='/images/index.png'/>
+                  <Image  width={180} height={180} src='/images/index.png'/>
                 </div>
 
                 {/* <!-- Client info --> */}
@@ -33,7 +33,7 @@ export default function Projects () {
 
                 {/* <!-- Client logo --> */}
                 <div className="mb-6 lg:mb-0">
-                  <Image width="180" src="/images/jamming.ico"/>
+                  <Image width={180} height={180} src="/images/jamming.ico"/>
                 </div>
 
                 {/* <!-- Client info --> */}
