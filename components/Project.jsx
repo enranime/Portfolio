@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Projects () {
     return (
         <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
@@ -11,7 +13,7 @@ export default function Projects () {
 
                 {/* <!-- Client logo --> */}
                 <div className="mb-6 lg:mb-0">
-                  <img  width="180" src='/images/index.png'/>
+                  <Image  width="180" src='/images/index.png'/>
                 </div>
 
                 {/* <!-- Client info --> */}
@@ -31,7 +33,7 @@ export default function Projects () {
 
                 {/* <!-- Client logo --> */}
                 <div className="mb-6 lg:mb-0">
-                  <img width="180" src="/images/jamming.ico"/>
+                  <Image width="180" src="/images/jamming.ico"/>
                 </div>
 
                 {/* <!-- Client info --> */}
